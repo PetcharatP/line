@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LINE Login</title>
+
+  <!-- Meta tags for OpenGraph (OG) properties -->
+  <meta property="og:title" content="LINE Login">
+  <meta property="og:description" content="Log in to Woodbox木箱システム">
+  <meta property="og:image" content="https://vos.line-scdn.net/login-web/img/favicon.ico">
+
+  <!-- Favicon and icons -->
+  <link rel="shortcut icon" type="image/x-icon" href="https://vos.line-scdn.net/login-web/img/favicon.ico">
+  <link rel="icon" type="image/x-icon" sizes="32x32" href="https://vos.line-scdn.net/login-web/img/favicon-32x32.png">
+  <link rel="icon" type="image/x-icon" sizes="16x16" href="https://vos.line-scdn.net/login-web/img/favicon-16x16.png">
+  <link rel="apple-touch-icon-precomposed" href="https://vos.line-scdn.net/login-web/img/apple-touch-icon-precomposed.png">
+
+  <!-- Basic CSS for styling -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 30px;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-container h1 {
+      font-size: 32px;
+      color: #00B900;
+      margin-bottom: 20px;
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .login-btn {
+      background-color: #00B900;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      width: 100%;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .login-btn:hover {
+      background-color: #009e00;
+    }
+
+    .qr-login {
+      margin-top: 20px;
+      color: #333;
+      text-decoration: none;
+      font-size: 14px;
+      display: block;
+    }
+
+    .footer-links {
+      font-size: 12px;
+      color: #999;
+      margin-top: 30px;
+    }
+
+    .footer-links a {
+      color: #999;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="login-container">
+    <h1>LINE</h1>
+    <form action="#" method="POST">
+      <input type="email" name="email" placeholder="Email address" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button class="login-btn" type="submit">Log in</button>
+    </form>
+    <a href="#" class="qr-login">Login with QR code</a>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a> | <a href="#">Terms and Conditions of Use</a>
+    </div>
+  </div>
+
+</body>
+</html>
